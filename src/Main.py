@@ -9,4 +9,5 @@ ap.add_argument("-c", "--clusters", required=True, type=int,
 args = vars(ap.parse_args())
 
 
-Functions.kmeans(args)
+# Functions.kmeans(args)
+Functions.kmeansCV(args)
